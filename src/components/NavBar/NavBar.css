@@ -1,30 +1,32 @@
 nav {
   background: brown;
-  height: 70px;
+  height: 60px;
   width: 100%;
-  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navContainer {
-  height: 28px;
-  color: red;
-  padding: 10px 0px;
-  font-size: 14px sans-serif;
-  font-style: italic;
-  float: left;
+.leftcontainer {
+  padding-left: 200px;
+  padding-top: 8px;
+  
 }
 
-h1 {
-  margin-left: 200px;
+.leftcontainer h1 {
+  margin: auto;
+  
 }
 
-p {
-  margin-left: 200px;
-  font-size: 10px;
+.leftcontainer p {
+  margin: auto;
+  font-size: 12px;
 }
-.navitems {
-  float: right;
-  margin-right: 200px;
-  font-size: 14px sans-serif;
-  color: yellowgreen;
+
+.rightcontainer {
+  padding-right:200px;
+}
+
+.rightcontainer li {
+  display: inline;
+  padding: 8px;
 }

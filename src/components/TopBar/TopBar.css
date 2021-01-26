@@ -1,39 +1,21 @@
 .nav {
-    height: 30px;
-    background-color: #191919;
-    width: 100%;
-    padding: 10px 0px;
-  
+  background: green;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .left {
-  float: left;
-  height: 28px;
-  color: red;
-  padding: 10px 0px;
-  font-size: 14px sans-serif;
-  margin-left:200px;
-  font-style: italic;
+  padding-left: 200px;
+  padding-top: 8px;
 }
 
-button {
-    background-color: #4CAF50;
-    border: 2px solid whitesmoke;
-}
+
 .right {
-  float: right;
-  margin-right: 200px;
-  font-size: 14px sans-serif;
-  height: 28px;
-  color: yellowgreen;
-  
+  padding-right:200px;
 }
-
-li {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  
+.right li {
+  display: inline;
+  padding: 8px;
 }
-
