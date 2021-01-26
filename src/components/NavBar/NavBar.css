@@ -1,0 +1,30 @@
+nav {
+  background: brown;
+  height: 70px;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.navContainer {
+  height: 28px;
+  color: red;
+  padding: 10px 0px;
+  font-size: 14px sans-serif;
+  font-style: italic;
+  float: left;
+}
+
+h1 {
+  margin-left: 200px;
+}
+
+p {
+  margin-left: 200px;
+  font-size: 10px;
+}
+.navitems {
+  float: right;
+  margin-right: 200px;
+  font-size: 14px sans-serif;
+  color: yellowgreen;
+}
